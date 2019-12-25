@@ -1,0 +1,6 @@
+languageCode = "ja"
+theme = "blank"
+title = "INFO"
+
+[params]
+  commentoEnable = true

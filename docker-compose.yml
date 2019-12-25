@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  info:
+    container_name: info
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 1313:1313
+    restart: always
+    tty: true
+    volumes:
+      - ../info:/var/www/info
