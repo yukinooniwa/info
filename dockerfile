@@ -8,6 +8,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
     wget \
     git \
+    vim \
     ca-certificates \
     && wget "${HUGO_URL}" \
     && tar -C /usr/bin/ -xzf "${HUGO_NAME}.tar.gz" \
